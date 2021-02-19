@@ -29,6 +29,7 @@ body {
 .nav a {
   text-decoration: underline;
   margin-right: 25px;
+  color: seashell;
 }
 .mission {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -115,6 +116,7 @@ body {
   align-items: center;
   align-content: center;
   height: 300px;
+  opacity: 1;
 }
 .location {
   background-color: black;
@@ -124,4 +126,17 @@ body {
 .location p {
   border: 30px;
   line-height: 50px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 200px;
+}
+.contact-info {
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
